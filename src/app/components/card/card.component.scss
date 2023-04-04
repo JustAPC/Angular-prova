@@ -4,6 +4,27 @@
 }
 
 .example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-image: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&w=1000&q=80");
   background-size: cover;
+}
+
+ul {
+  padding: 0 16px;
+  margin: 0;
+  display: inline-block;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin: 0 10px;
+}
+
+p {
+  margin: 10px 0 0 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
 }
