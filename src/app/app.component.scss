@@ -4,52 +4,17 @@
   box-sizing: border-box;
 }
 
-.example-card {
-  max-width: 400px;
+#navbar {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  z-index: 100;
 }
 
-.example-header-image {
-  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
-  background-size: cover;
-}
-
-.example-card {
-  max-width: 400px;
-}
-
-.example-header-image {
-  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
-  background-size: cover;
-}
-
-.navbar {
-  height: 70px;
-}
-
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  column-gap: 50px;
-  row-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
+#footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }

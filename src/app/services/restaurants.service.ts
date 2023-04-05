@@ -14,6 +14,6 @@ export class RestaurantsService {
   }
 
   getRestaurantsList() {
-    return this.httpClient.get(`${this.url}/restaurant/getRestaurants/0/10`);
+    return this.httpClient.get(`${this.url}/restaurant/getRestaurants/0/3`);
   }
 }

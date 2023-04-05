@@ -1,8 +1,12 @@
-<header class="header">
-  <h1 class="logo"><a href="#">Restaurant page</a></h1>
-  <ul class="main-nav">
-    <li><a routerLink="">Home</a></li>
-    <li><a routerLink="about">About</a></li>
-    <li><a routerLink="contacts">Contact</a></li>
-  </ul>
-</header>
+<mat-toolbar>
+  <mat-toolbar-row>
+    <a routerLink="">
+      <button mat-icon-button aria-label="Example icon button with a home icon">
+        <mat-icon>home</mat-icon>
+      </button>
+    </a>
+    <span class="example-spacer"></span>
+    <a routerLink="about">About us</a>
+    <a routerLink="contacts">Contact Us</a>
+  </mat-toolbar-row>
+</mat-toolbar>
